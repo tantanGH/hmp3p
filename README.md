@@ -37,7 +37,7 @@ PCM8PP.X をあらかじめ常駐させておきます。
         options:
              -v[n] ... volume (1-15, default:6)
              -l[n] ... loop count (none:endless, default:1)
-             -q[n] ... mp3 quality (0:high, 1:normal, default:1)
+             -q[n] ... mp3 quality (0:high, 1:normal, default:0)
              -b<n> ... buffer size [x 64KB] (3-32,default:6)
              -s    ... use main memory for file reading (SCSI disk)
              -h    ... show help message
