@@ -18,7 +18,7 @@ VBR(Variable Bit Rate)のMP3データを 44.1kHz 16bit ステレオ PCM で再�
 * Raspberry Pi 4B (なるべく後期型)
 * MPU 68030 モード (68000モードでは動作しません)
 * MPU ライトバックモード (ライトスルーモードでは処理が追いつきません)
-* Mercury-UNIT V2.0/V3.0/V3.1/V3.5/V4.0 (KeplerXは未確認)
+* Mercury-UNIT V2.0/V3.0/V3.1/V3.5/V4.0 または KeplerX
 * ハイメモリ256MB以上
 * TS16DRVp.X ハイメモリドライバ
 * PCM8PP.X 0.83d
