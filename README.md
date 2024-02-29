@@ -1,4 +1,5 @@
-# hmp3p
+# HMP3P.X
+
 A simple high memory MP3 player for Human68k/X680x0 + Mercury-UNIT
 
 ---
