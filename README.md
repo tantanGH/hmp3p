@@ -8,6 +8,7 @@ A simple high memory MP3 player for Human68k/X680x0 + Mercury-UNIT
 
 PhantomX ハイメモリ + Mercury-UNIT 専用のMP3音楽プレーヤです。
 VBR(Variable Bit Rate)のMP3データを 44.1kHz 16bit ステレオ PCM で再生可能です。
+Mercury-UNITが無い場合は内蔵ADPCMでも再生できます。
 
 ---
 
@@ -18,10 +19,11 @@ VBR(Variable Bit Rate)のMP3データを 44.1kHz 16bit ステレオ PCM で再�
 * Raspberry Pi 4B (なるべく後期型)
 * MPU 68030 モード (68000モードでは動作しません)
 * MPU ライトバックモード (ライトスルーモードでは処理が追いつきません)
-* Mercury-UNIT V2.0/V3.0/V3.1/V3.5/V4.0 または KeplerX
 * ハイメモリ256MB以上
 * TS16DRVp.X ハイメモリドライバ
+* Mercury-UNIT V2.0/V3.0/V3.1/V3.5/V4.0 または KeplerX
 * PCM8PP.X 0.83d
+* Mercury-UNITが無い場合は [PCM8A.X 1.02.1 (TcbnErik氏のハイメモリ対応版)](https://github.com/kg68k/pcm8a/releases/tag/v1.02.1)
 
 MP3データファイルは PhantomX 1.04 の WindrvXM 機能を利用してSDカードに直接保存することを強くお勧めします。
 
@@ -31,7 +33,7 @@ MP3データファイルは PhantomX 1.04 の WindrvXM 機能を利用してSD�
 
 ## 使い方
 
-PCM8PP.X をあらかじめ常駐させておきます。
+TS16DRVp.X および PCM8PP.X をあらかじめ常駐させておきます。Mercury-UNITが無い場合は PCM8PP.X の代わりに PCM8A.X を使用してください。
 
         usage: hmp3p [options] <input-file.mp3>
         options:
@@ -42,7 +44,7 @@ PCM8PP.X をあらかじめ常駐させておきます。
              -s    ... use main memory for file reading (SCSI disk)
              -h    ... show help message
 
-音割れを防ぐために、PCM8PPの音量設定は少し小さめとなっています。
+音割れを防ぐために、PCM8PP/PCM8Aの音量設定は少し小さめとなっています。
 
 -q1 でハーフレート再生となり処理負担が減りますが、Mercury-UNIT V3.5以上が必須となります。
 
@@ -68,6 +70,7 @@ Amazonのダウンロード販売を利用するのが一番手軽です。あ�
 
 ## History
 
+* 0.2.3 (2024/03/01) ... PCM8PPの代わりにPCM8Aを使うことで内蔵ADPCMでの再生に対応した
 * 0.2.2 (2024/03/01) ... 16MB超のMP3ファイルの読み込みが正しくできていなかったのを修正
 * 0.2.1 (2024/02/29) ... 48.0kHzのデータ再生に対応した
 * 0.2.0 (2024/02/29) ... 初版
