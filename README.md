@@ -20,9 +20,9 @@ Mercury-UNITが無い場合は内蔵ADPCMでも再生できます。
 * MPU 68030 モード (68000モードでは動作しません)
 * MPU ライトバックモード (ライトスルーモードでは処理が追いつきません)
 * ハイメモリ256MB以上
-* TS16DRVp.X ハイメモリドライバ
 * Mercury-UNIT V2.0/V3.0/V3.1/V3.5/V4.0 または KeplerX
-* PCM8PP.X 0.83d
+* TS16DRVp.X ハイメモリドライバ
+* [PCM8PP.X 0.83d](http://retropc.net/x68000/software/hardware/mercury/pcm8pp/)
 * Mercury-UNITが無い場合は [PCM8A.X 1.02.1 (TcbnErik氏のハイメモリ対応版)](https://github.com/kg68k/pcm8a/releases/tag/v1.02.1)
 
 MP3データファイルは PhantomX 1.04 の WindrvXM 機能を利用してSDカードに直接保存することを強くお勧めします。
