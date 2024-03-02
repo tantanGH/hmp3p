@@ -17,7 +17,7 @@ Mercury-UNITが無い場合は内蔵ADPCMでも再生できます。
 ## 動作環境
 
 * X68000実機
-* PhantomX version 1.04b
+* PhantomX version 1.20
 * Raspberry Pi 4B (なるべく後期型)
 * MPU 68030 モード (68000モードでは動作しません)
 * MPU ライトバックモード (ライトスルーモードでは処理が追いつきません)
