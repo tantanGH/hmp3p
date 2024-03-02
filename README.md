@@ -8,8 +8,8 @@ A simple high memory MP3 player for Human68k/X680x0 + Mercury-UNIT
 
 PhantomX ハイメモリ + Mercury-UNIT 専用のMP3音楽プレーヤです。
 上限320kbpsのMP3データや、VBR(Variable Bit Rate)のMP3データを 44.1kHz 16bit ステレオ PCM で再生可能です。
-
 Mercury-UNITが無い場合は内蔵ADPCMでも再生できます。
+
 アルバムアートワークおよびID3タグの表示に対応しています。
 
 ---
