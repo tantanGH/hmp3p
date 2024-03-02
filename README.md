@@ -65,7 +65,7 @@ TS16FILE.X は WindrvXM + ハイメモリと相性が悪いので使わないよ
 
 Amazonのダウンロード販売を利用するのが一番手軽です。あるいはPC上でCDリッピングしたデータを何らかのエンコーダソフトを使って作成することもできます。
 
-例: Apple Music で apple lossless 形式 (.m4a) で取り込んだデータを ffmpeg を使ってタグ情報を含めて固定320kbpsで変換
+例: Apple Music を使い、CDから apple lossless 形式 (.m4a) でリッピングしたデータを ffmpeg を使ってタグ情報を含めて固定320kbpsで変換
 
         ffmpeg hogehoge.m4a -ab 320k -id3v2_version 3 hogehoge.mp3
 
