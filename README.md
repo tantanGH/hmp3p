@@ -69,6 +69,10 @@ Amazonのダウンロード販売を利用するのが一番手軽です。あ�
 
         ffmpeg hogehoge.m4a -ab 320k -id3v2_version 3 hogehoge.mp3
 
+例: 既存のMP3ファイルのアートワーク画像を差し替える
+
+        ffmpeg -i hoge.mp3 -i hoge.jpg -map 0:a -map 1:v -c copy -disposition:1 attached_pic -id3v2_version 3 hoge_art.mp3
+
 ---
 
 ## ライセンス
