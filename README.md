@@ -6,11 +6,9 @@ A simple high memory MP3 player for Human68k/X680x0 + Mercury-UNIT
 
 ## About This
 
-PhantomX ハイメモリ + Mercury-UNIT 専用のMP3音楽プレーヤです。
-上限320kbpsのMP3データや、VBR(Variable Bit Rate)のMP3データを 44.1kHz 16bit ステレオ PCM で再生可能です。
-Mercury-UNITが無い場合は内蔵ADPCMでも再生できます。
+PhantomX ハイメモリ + Mercury-UNIT 専用のMP3音楽プレーヤです。上限320kbpsのMP3データや、VBR(Variable Bit Rate)のMP3データを 44.1kHz 16bit ステレオ PCM で再生可能です。アルバムアートワークおよびID3タグの表示に対応しています。
 
-アルバムアートワークおよびID3タグの表示に対応しています。
+Mercury-UNITが無い場合は内蔵ADPCMでも再生できます。
 
 ---
 
@@ -102,6 +100,7 @@ Amazonのダウンロード販売を利用するのが一番手軽です。あ�
 
 ## History
 
+* 0.2.6 (2024/03/08) ... チェーンテーブルの最後のブロックを開放できないことがあったのを修正
 * 0.2.5 (2024/03/03) ... デフォルトのバッファ数を6から4に変更。プログレスバー非表示オプション追加
 * 0.2.4 (2024/03/02) ... アルバムアートワーク表示に対応した
 * 0.2.3 (2024/03/01) ... PCM8PPの代わりにPCM8Aを使うことで内蔵ADPCMでの再生に対応した
