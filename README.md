@@ -10,6 +10,8 @@ PhantomX ハイメモリ + Mercury-UNIT 専用のMP3音楽プレーヤです。�
 
 Mercury-UNITが無い場合は内蔵ADPCMでも再生できます。
 
+セレクタ[MP3SEL.X](https://github.com/tantanGH/mp3sel/)と組み合わせての利用をおすすめします。
+
 ---
 
 ## 動作環境 (実機)
