@@ -23,7 +23,7 @@ Mercury-UNITが無い場合は内蔵ADPCMでも再生できます。
 * MPU ライトバックモード (ライトスルーモードでは処理が追いつきません)
 * ハイメモリ256MB以上
 * Mercury-UNIT V2.0/V3.0/V3.1/V3.5/V4.0 または KeplerX
-* TS16DRVp.X ハイメモリドライバ
+* [TS16DRVp.X ハイメモリドライバ](https://hauoli.x68kbbs.com/)
 * [PCM8PP.X 0.83d](http://retropc.net/x68000/software/hardware/mercury/pcm8pp/)
 * Mercury-UNITが無い場合は [PCM8A.X 1.02.1 (TcbnErik氏のハイメモリ対応版)](https://github.com/kg68k/pcm8a/releases/tag/v1.02.1)
 
