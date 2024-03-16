@@ -14,6 +14,8 @@ Mercury-UNITが無い場合は内蔵ADPCMでも再生できます。
 
 セレクタ[MP3SEL.X](https://github.com/tantanGH/mp3sel/)と組み合わせての利用をおすすめします。
 
+FLACデータの再生には[HFLAP.X](https://github.com/tantanGH/hflap/)をご利用ください。
+
 ---
 
 ## 動作環境 (実機)
