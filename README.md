@@ -29,7 +29,7 @@ Mercury-UNITが無い場合は内蔵ADPCMでも再生できます。
 * [PCM8PP.X 0.83d](http://retropc.net/x68000/software/hardware/mercury/pcm8pp/)
 * Mercury-UNITが無い場合は [PCM8A.X 1.02.1 (TcbnErik氏のハイメモリ対応版)](https://github.com/kg68k/pcm8a/releases/tag/v1.02.1)
 
-MP3データファイルは PhantomX 1.04 の WindrvXM 機能を利用してSDカードに直接保存することを強くお勧めします。
+MP3データファイルは PhantomX 人柱版の WindrvXM 機能を利用してSDカードに直接保存することを強くお勧めします。
 
 68040モードでも動作しますが、68040に対応したFLOATの組み込みが必要です。FLOAT2.Xを使うか、68040対応改造版のFLOAT4を利用してください。SHARP純正FLOAT3.X/FLOAT4.Xは68040に対応していません。なお、MP3のデコードはすべて整数演算によるものです。FLOATはXCのライブラリが一部使います。
 
