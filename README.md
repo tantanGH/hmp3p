@@ -18,6 +18,8 @@ Mercury-UNITが無い場合は内蔵ADPCMでも再生できます。
  - HMP3P030.X ... 68030/68040/68060 のMPUモードに対応(より高速動作します)
  - HMP3P060.X ... 68060専用(さらに高速に動作します)
 
+固定小数点演算しか行っていないため、FPUの有無や、FLOATドライバの種類によるパフォーマンスの違いはありません。
+
 セレクタ[MP3SEL.X](https://github.com/tantanGH/mp3sel/)と組み合わせての利用をおすすめします。
 
 FLACデータの再生には[HFLAP.X](https://github.com/tantanGH/hflap/)をご利用ください。
